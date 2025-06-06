@@ -17,6 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 domain: krishnaslight.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 title: Krishna's Light blog
 email: gopala.campu.dasa@gmail.com
@@ -27,9 +28,13 @@ url: https://krishnaslight.github.io  # the base hostname and protocol for your 
 github_username:  sparkofkrsna
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-github-metadata
+
+# theme: minima
 
 # Exclude from processing.
 # The following items will not be processed, by default.
