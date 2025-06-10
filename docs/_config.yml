@@ -18,19 +18,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-domain: sparkofkrsna.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+# domain: sparkofkrsna.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+# title: Krishna's Light
+# email: gopala.campu.dasa@gmail.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#   This is a blog by Gopala Campu dasa.
+# baseurl: /docs/ # the subpath of your site, e.g. /blog
+# url: https://sparkofkrsna.github.io/krishnaslight  # the base hostname and protocol for your site, e.g. http://example.com
+# github_username:  sparkofkrsna
+
+domain: sparkofkrsna.github.io
 title: Krishna's Light
 email: gopala.campu.dasa@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   This is a blog by Gopala Campu dasa.
-baseurl: /docs/ # the subpath of your site, e.g. /blog
-url: https://sparkofkrsna.github.io/krishnaslight  # the base hostname and protocol for your site, e.g. http://example.com
-github_username:  sparkofkrsna
-
-# Build settings
-remote_theme: jekyll/minima
+baseurl: /krishnaslight/docs
+url: https://sparkofkrsna.github.io
+github_username: sparkofkrsna
+theme: minima
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-github-metadata
 
