@@ -35,7 +35,7 @@ description: >-
 baseurl: /krishnaslight/docs
 url: https://sparkofkrsna.github.io
 github_username: sparkofkrsna
-theme: jekyll-theme-minima
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
